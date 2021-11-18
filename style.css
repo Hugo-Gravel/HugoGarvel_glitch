@@ -1,0 +1,97 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+  .textbox{
+    background-color:white;
+    border: solid darkgray 3px;
+    border-radius:10px;
+    width:100%;
+    color: rgb(32, 31, 31);
+    
+    }
+.formal{
+  font-family:  Impact, Haettenschweiler, sans-serif;
+  font-size: 30px
+}
+.centering{
+ padding-top: 50px;
+ aling:center;
+ position: fixed;
+  left: 200px;
+  right:200px;
+ 
+}
+.centeringT{
+ padding-top: 10px;
+ aling:center;
+ position: fixed;
+  left: 100px;
+  right:100px;
+ 
+}
+ .button{
+   
+    background-color:green;
+    border: solid darkgray 3px;
+    color: lightgreen;
+    border-radius:10px;
+   width 120px
+    
+}
+divi{
+  border: solid pink 5px; 
+}  
+.s{
+    display:column;
+}
+.bob{
+   padding-top: 25px;
+   padding-left: 35%;
+ 
+}
+.story{
+  font-size: 20px;
+}
+
+.pageset{
+  display: flex;
+}
+.pageset2{
+  display: row;
+}
+div.ex3 {
+max-height:500px;
+  overflow: auto;
+  
+}
+.zb{
+  background-color:#e5989b;
+}
+.rb{
+  background-color:#3c8de2;
+}
+.rbo{
+  border: solid #1c7685 5px;
+}
